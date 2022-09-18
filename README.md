@@ -27,27 +27,27 @@ Bot的用法很简单，打开Bot，接下来只需调整“视频”和“鼠�
 1. ./imgs，该文件夹下存放了各种分辨率的图片，请依据自己的显示屏分辨率选择（默认1080x1920），修改setting.json的内容。
 2. settings.json，该文件是Bot的配置文件。文件内容以及参数说明如下，请依据自己的需求进行修改。
 ```
-	// 末影之眼模板图片的路径，依据自己的显示屏分辨率选择（游戏窗口最大化）。如果没有对应的分辨率，请选择最相近的分辨率。
-	"eye_path": "./imgs/eye_1080x1920.png",
-	
-	// 同上进行设置，mask图片是辅助bot检测末影之眼的。
-	"mask_path": "./imgs/mask_1080x1920.png",
-	
-	// 同上进行设置，十字准星的图片。
-	"cursor_path": "./imgs/cursor_1080x1920.png",
-	
-	// 下面的参数是用于筛选窗口名的。简单来说，只要把游戏窗口的部分文字填到下面的 :"xxx"  中即可。
-	// (有代码基础的玩家可以这样理解，预先设置一个字符串，去检索全部窗口名的列表，如果窗口名包含这个字符串，就保留该窗口名)
-	"minecraft_windows_filter": "Minecraft" ,
-	
-	// 设置Bot主题！可选的主题附在下面，可以设置自己喜欢的颜色。
-	"bot_theme": "litera"
+// 末影之眼模板图片的路径，依据自己的显示屏分辨率选择（游戏窗口最大化）。如果没有对应的分辨率，请选择最相近的分辨率。
+"eye_path": "./imgs/eye_1080x1920.png",
+
+// 同上进行设置，mask图片是辅助bot检测末影之眼的。
+"mask_path": "./imgs/mask_1080x1920.png",
+
+// 同上进行设置，十字准星的图片。
+"cursor_path": "./imgs/cursor_1080x1920.png",
+
+// 下面的参数是用于筛选窗口名的。简单来说，只要把游戏窗口的部分文字填到下面的 :"xxx"  中即可。
+// (有代码基础的玩家可以这样理解，预先设置一个字符串，去检索全部窗口名的列表，如果窗口名包含这个字符串，就保留该窗口名)
+"minecraft_windows_filter": "Minecraft" ,
+
+// 设置Bot主题！可选的主题附在下面，可以设置自己喜欢的颜色。
+"bot_theme": "litera"
 ```
 ```
-	// 可选的颜色主题：
-	 // theme: "cosmo", "flatly", "litera", "minty", "yeti", "pulse", "united",
-	//              "morph",  "journal",  "darkly",  "superhero", "solar", "cyborg",
-	//              "vapor", "simplex",  "cerculean",
+// 可选的颜色主题：
+ // theme: "cosmo", "flatly", "litera", "minty", "yeti", "pulse", "united",
+//              "morph",  "journal",  "darkly",  "superhero", "solar", "cyborg",
+//              "vapor", "simplex",  "cerculean",
 ```
 
 ## 常见问题
