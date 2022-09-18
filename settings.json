@@ -1,0 +1,7 @@
+{
+    "eye_path": "./imgs/eye_1080x1920.png",
+    "mask_path": "./imgs/mask_1080x1920.png",
+    "cursor_path": "./imgs/cursor_1080x1920.png",
+    "minecraft_windows_filter": "Minecraft" ,
+    "bot_theme": "litera"
+}
